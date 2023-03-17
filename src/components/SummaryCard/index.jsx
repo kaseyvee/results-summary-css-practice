@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { DataContext } from '../../App';
+import Button from './Button';
 import SkillCard from './SkillCard';
 
 function SummaryCard() {
@@ -7,13 +8,20 @@ function SummaryCard() {
 
   const skillCards = data.map(datum => {
     return (
-      <SkillCard datum={datum} />
+      <SkillCard
+        key={data.indexOf(datum)}
+        datum={datum}
+      />
     )
   })
 
   return (
-    <div>
-      {skillCards}
+    <div className='summarycard'>
+      <h3>Summary</h3>
+      <div className='summarycard-skillcards-container'>
+        {skillCards}
+      </div>
+      <Button />
     </div>
   );
 }
