@@ -10,8 +10,10 @@ function App() {
   return (
     <DataContext.Provider value={data}>
       <div className="App">
-        <ResultCard />
-        <SummaryCard />
+        <div className="maincard">
+          <ResultCard />
+          <SummaryCard />
+        </div>
       </div>
     </DataContext.Provider>
   )

@@ -4,14 +4,11 @@
   background: linear-gradient($slateBlue, $royalBlue);
   color: $lavender;
   border-radius: 0 0 10% 10%;
-  padding: 1.25rem 3rem 1.25rem 3rem;
+  padding: 1.5rem 3rem 3rem 3rem;
+  gap: 1.5rem;
 
   h1, h2 {
     color: $white;
-  }
-
-  div {
-    margin-bottom: 1.25rem;
   }
 
   &-score {
