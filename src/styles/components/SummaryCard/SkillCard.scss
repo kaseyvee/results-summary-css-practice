@@ -1,0 +1,43 @@
+.skillcard {
+  @include center-row;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+
+  &-Reaction {
+    background: $transparentRed;
+    color: $red;
+  }
+
+  &-Memory {
+    background: $transparentYellow;
+    color: $yellow;
+  }
+
+  &-Verbal {
+    background: $transparentGreen;
+    color: $green;
+  }
+
+  &-Visual {
+    background: $transparentCobaltBlue;
+    color: $cobaltBlue;
+  }
+
+  div {
+    @include center-row;
+  }
+
+  img {
+    margin-right: 0.5rem;
+  }
+
+  .actual {
+    color: $greyBlue;
+    margin-right: 0.5rem;
+  }
+
+  .total {
+    color: $transparentGreyBlue;
+  }
+}

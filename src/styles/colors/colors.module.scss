@@ -1,8 +1,17 @@
 /* Standard Color Declarations */
+$alpha: 0.05;
+
 $red: hsl(0, 100%, 67%);
+$transparentRed: hsla(0, 100%, 67%, $alpha);
+
 $yellow: hsl(39, 100%, 56%);
+$transparentYellow: hsla(39, 100%, 56%, $alpha);
+
 $green: hsl(166, 100%, 37%);
+$transparentGreen: hsla(166, 100%, 37%, $alpha);
+
 $cobaltBlue: hsl(234, 85%, 45%);
+$transparentCobaltBlue: hsla(234, 85%, 45%, $alpha);
 
 /* gradients */
 $slateBlue: hsl(252, 100%, 67%);
@@ -15,3 +24,4 @@ $white: hsl(0, 0%, 100%);
 $paleBlue: hsl(221, 100%, 96%);
 $lavender: hsl(241, 100%, 89%);
 $greyBlue: hsl(224, 30%, 27%);
+$transparentGreyBlue: hsla(224, 30%, 27%, 0.4);

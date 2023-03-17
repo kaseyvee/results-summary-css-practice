@@ -17,7 +17,7 @@ function SummaryCard() {
 
   return (
     <div className='summarycard'>
-      <h3>Summary</h3>
+      <h3 className='summarycard-header'>Summary</h3>
       <div className='summarycard-skillcards-container'>
         {skillCards}
       </div>

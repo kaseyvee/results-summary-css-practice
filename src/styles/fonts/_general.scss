@@ -1,6 +1,5 @@
 p {
   @extend .hanken_medium;
-  font-size: 18px;
 }
 
 h1 {
@@ -8,14 +7,23 @@ h1 {
 }
 
 h2 {
+  @extend .hanken_medium;
+}
+
+h3 {
+  @extend .hanken_medium;
+  font-size: 1.25rem;
+}
+
+h4 {
   @extend .hanken_bold;
 }
 
-h3, button {
-  @extend .hanken_bold;
-  font-size: 18px;
+button {
+  @extend .hanken_medium;
+  font-size: 1.25rem;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
   margin: 0;
 }

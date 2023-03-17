@@ -2,15 +2,16 @@ import React from 'react';
 
 function SkillCard(props) {
   return (
-    <div className='skillcard'>
+    <div className={`skillcard skillcard-${props.datum.category}`}>
 
       <div className='skillcard-category'> 
         <img src={props.datum.icon} alt={`${props.datum.category} icon`} />
-        <h3>{props.datum.category}</h3>
+        <p>{props.datum.category}</p>
       </div>
 
       <div className='skillcard-score'>
-        <h3>{props.datum.score} / 100</h3>
+        <h4 className='actual'>{props.datum.score} </h4>
+        <h4 className='total'>/ 100</h4>
       </div>
 
     </div>
