@@ -1,4 +1,4 @@
-p, h3 {
+p {
   @extend .hanken_medium;
   font-size: 18px;
 }
@@ -9,4 +9,13 @@ h1 {
 
 h2 {
   @extend .hanken_bold;
+}
+
+h3 {
+  @extend .hanken_bold;
+  font-size: 18px;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
 }

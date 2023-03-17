@@ -17,18 +17,20 @@ function ResultCard(props) {
   const average = getAverage();
 
   return (
-    <div className='ResultCard'>
-      
-      <h3>Your Result</h3>
+    <div className='resultcard'>
 
-      <div>
+      <div className='resultcard-header'>
+        <h3>Your Result</h3>
+      </div>
+
+      <div className='resultcard-score'>
         <h1>{average}</h1>
         <p>of 100</p>
       </div>
 
-      <div>
+      <div className='resultcard-blurb'>
         <h2>Great</h2>
-        <p>You scored higher than 65% of people who have taken these tests.</p>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
 
     </div>
