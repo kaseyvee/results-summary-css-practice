@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 @mixin hanken($font-weight: 500) {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-style: normal;
   font-weight: $font-weight !important;
 }

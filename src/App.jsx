@@ -1,9 +1,11 @@
+import ResultCard from "./components/ResultCard"
+import { data } from "./data"
 
 function App() {
 
   return (
     <div className="App">
-      hello
+      <ResultCard data={data}/>
     </div>
   )
 }

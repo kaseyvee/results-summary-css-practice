@@ -1,4 +1,12 @@
-p {
-  @extend .hanken;
+p, h3 {
+  @extend .hanken_medium;
   font-size: 18px;
+}
+
+h1 {
+  @extend .hanken_extraBold;
+}
+
+h2 {
+  @extend .hanken_bold;
 }
