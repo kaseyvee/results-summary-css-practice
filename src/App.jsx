@@ -1,12 +1,21 @@
-import ResultCard from "./components/ResultCard"
+import { createContext } from "react";
 import { data } from "./data"
+import ResultCard from "./components/ResultCard"
+import SummaryCard from "./components/SummaryCard";
+import Button from "./components/Button";
+
+export const DataContext = createContext();
 
 function App() {
 
   return (
-    <div className="App">
-      <ResultCard data={data}/>
-    </div>
+    <DataContext.Provider value={data}>
+      <div className="App">
+        <ResultCard />
+        <SummaryCard />
+        <Button />
+      </div>
+    </DataContext.Provider>
   )
 }
 

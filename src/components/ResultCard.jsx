@@ -1,8 +1,8 @@
-import React from 'react';
+import { useContext } from 'react';
+import { DataContext } from '../App';
 
-function ResultCard(props) {
-  const data = props.data;
-  console.log(data)
+function ResultCard() {
+  const data = useContext(DataContext);
 
   function getAverage() {
     let total = 0;
