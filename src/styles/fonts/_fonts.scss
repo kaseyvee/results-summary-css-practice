@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+@mixin hanken($font-weight: 500) {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: $font-weight !important;
+}
+
+.hanken {
+  @include hanken;
+}
+
+.hanken_medium {
+  @include hanken(500);
+}
+
+.hanken_bold {
+  @include hanken(700);
+}
+
+.hanken_extraBold {
+  @include hanken(800);
+}
