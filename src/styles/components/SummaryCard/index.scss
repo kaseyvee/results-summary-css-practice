@@ -4,10 +4,9 @@
 .summarycard {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
   flex-grow: 1;
-  padding: 1.25rem;
-  height: 100%;
+  padding: 1.5rem 2rem 2rem 2rem;
 
   &-header {
     color: $greyBlue;
@@ -19,5 +18,11 @@
     justify-content: space-between;
     flex-grow: 1;
     margin: 1.5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .summarycard {
+    min-width: 16rem;
   }
 }

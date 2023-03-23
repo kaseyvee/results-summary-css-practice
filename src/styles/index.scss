@@ -2,3 +2,36 @@
 @import "fonts";
 @import "helpers";
 @import "components";
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+
+  .maincard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .maincard {
+      flex-direction: row !important;
+      width: fit-content !important;
+      height: fit-content !important;
+      box-shadow: 15px 30px 10px $transparentCobaltBlue;
+      background-color: transparent;
+    }
+  }
+}
