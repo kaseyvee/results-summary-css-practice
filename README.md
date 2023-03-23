@@ -14,10 +14,10 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop View
-![Desktop View](https://github.com/kaseyvee/results-summary-css-practice/blob/main/docs/desktop-view.png?raw=true)
+![Desktop View](https://i.imgur.com/iLSH2M3.png)
 
 #### Mobile View
-![Mobile View]
+![Mobile View](https://i.imgur.com/rJMf7aI.png)
 
 ### Built with
 
