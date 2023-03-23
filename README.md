@@ -17,7 +17,7 @@ Users should be able to:
 ![Desktop View](https://github.com/kaseyvee/results-summary-css-practice/blob/main/docs/desktop-view.png?raw=true)
 
 #### Mobile View
-![Mobile View](https://github.com/kaseyvee/results-summary-css-practice/blob/main/docs/mobile-view.png?raw=true)
+![Mobile View]
 
 ### Built with
 
