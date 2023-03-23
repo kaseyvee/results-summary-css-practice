@@ -5,7 +5,7 @@ function SkillCard(props) {
     <div className={`skillcard skillcard-${props.datum.category}`}>
 
       <div className='skillcard-category'> 
-        <img src={props.datum.icon} alt={`${props.datum.category} icon`} />
+        <img src={`/public/assets/icon-${props.datum.category.toLowerCase()}.svg`} alt={`${props.datum.category} icon`} />
         <p>{props.datum.category}</p>
       </div>
 
